@@ -44,6 +44,9 @@ All notable changes to this project will be documented in this file.
 
 ### Features
 
+- Add a list of `declined_by: Vec<String>` to the `TimelineItemContent::RtcNotification`, this will contain the list
+  of users that have declined the call.
+  ([#6494](https://github.com/matrix-org/matrix-rust-sdk/pull/6494))
 - Add `RoomInfo::active_service_members_count` and `NotificationRoomInfo::active_service_members_count`,
   returning the amount of service members that are part of the room.
   ([#6483](https://github.com/matrix-org/matrix-rust-sdk/pull/6483))

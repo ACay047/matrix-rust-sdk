@@ -38,6 +38,9 @@ All notable changes to this project will be documented in this file.
 
 ### Features
 
+- Add a list of `declined_by: Vec<OwnedUserId>` to the `TimelineItemContent::RtcNotification`, this will contain the list
+  of users that have declined the call.
+  ([#6494](https://github.com/matrix-org/matrix-rust-sdk/pull/6494))
 - [**breaking**] Add the `suggested` field to the `SpaceRoom` struct,
   which indicates whether a space's admins have marked that sub-space/room
   as a "suggested" one to join. ([6417](https://github.com/matrix-org/matrix-rust-sdk/pull/6417))
